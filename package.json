@@ -1,0 +1,24 @@
+{
+  "name": "real-time-chat-web-application",
+  "version": "1.0.0",
+  "description": "Realtime chat application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/himanshug9119/Real-Time-Chat-Web-Application.git"
+  },
+  "author": "Himanshu Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshug9119/Real-Time-Chat-Web-Application/issues"
+  },
+  "homepage": "https://github.com/himanshug9119/Real-Time-Chat-Web-Application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
